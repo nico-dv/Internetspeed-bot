@@ -13,7 +13,8 @@ class InternetSpeedBot:
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
 
     def get_internet_speed(self):
-        pass
+        self.driver.get("https://www.speedtest.net/")
+        time.sleep(5)
 
     def tweet_at_provider(self):
         pass
