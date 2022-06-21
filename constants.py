@@ -8,6 +8,7 @@ PROMISED_DOWN = 600
 PROMISED_UP = 60
 TWITTER_EMAIL = crd_list[0]
 TWITTER_PASSWORD = crd_list[1]
+PHONE = crd_list[2]
 
 
 
